@@ -1,7 +1,7 @@
 #import tensorflow as tf
 from keras.datasets import cifar10
 from keras.utils.np_utils import to_categorical
-from model1 import *
+from model import *
 import numpy as np
 def train(batchsize,epochs):
     (X_train,Y_train),(X_test,Y_test)=cifar10.load_data()
